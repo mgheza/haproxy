@@ -1,0 +1,2759 @@
+[
+    {
+        "BACKEND_CFG": [
+            {
+                "IP": "192.168.5.32:8080",
+                "Name": "docker01",
+                "backends": "docker01_rmi",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8090",
+                "Name": "docker12",
+                "backends": "docker12_rmi",
+                "check": "check",
+                "num": "8090",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:18089",
+                "Name": "docker17",
+                "backends": "docker17_botcommander",
+                "check": "check",
+                "num": "18089",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:18086",
+                "Name": "docker17",
+                "backends": "docker17_infobot",
+                "check": "check",
+                "num": "18086",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:18088",
+                "Name": "docker17",
+                "backends": "docker17_connectorfarm",
+                "check": "check",
+                "num": "18088",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:9104",
+                "Name": "docker17",
+                "backends": "docker17_sentinelfarm_web",
+                "check": "check",
+                "num": "9104",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:9101",
+                "Name": "docker17",
+                "backends": "docker17_sentinelfarm_api",
+                "check": "check",
+                "num": "9101",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.58:18087",
+                "Name": "docker17",
+                "backends": "docker17_apibdn",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.59:8080",
+                "Name": "docker18",
+                "backends": "docker18_sigla4_izsler",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.59:3003",
+                "Name": "docker18",
+                "backends": "docker18_signerhub_test",
+                "check": "check",
+                "num": "3003",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.80:7807",
+                "Name": "docker18",
+                "backends": "docker18_sigla5_izsler",
+                "check": "check",
+                "num": "7807",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.59:8082",
+                "Name": "docker18",
+                "backends": "docker18_sigla_izsum",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.61:9000",
+                "Name": "docker19",
+                "backends": "docker19_api",
+                "check": "check",
+                "num": "9000",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.59:8787",
+                "Name": "docker18",
+                "backends": "docker18_sigla_lab",
+                "check": "check",
+                "num": "8787",
+                "port": "port"
+            },
+            {
+                "backends": "snowapp_azure_test"
+            },
+            {
+                "backends": "snowapp_azure_prod"
+            },
+            {
+                "backends": "snowapp_azure_web_test"
+            },
+            {
+                "backends": "snowapp_azure_web_prod"
+            },
+            {
+                "backends": "snowapp_azure_wa_test"
+            },
+            {
+                "backends": "snowapp_azure_wa_prod"
+            },
+            {
+                "IP": "192.168.5.61:9002",
+                "Name": "docker19",
+                "backends": "docker19_acquebresciane",
+                "check": "check",
+                "num": "9002",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.61:8880",
+                "Name": "docker19",
+                "backends": "docker19_cdg",
+                "check": "check",
+                "num": "8880",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.63:8082",
+                "Name": "docker21",
+                "backends": "docker21_test_santionibus_antonio",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.66:8082",
+                "Name": "docker23",
+                "backends": "docker23_santionibus",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.63:8083",
+                "Name": "docker21",
+                "backends": "docker21_test_santionibus_milano",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.62:8083",
+                "Name": "docker20",
+                "backends": "docker20_prod_santionibus_milano",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.63:8084",
+                "Name": "docker21",
+                "backends": "docker21_test_api_santionibus_milano",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.62:8084",
+                "Name": "docker20",
+                "backends": "docker20_prod_api_santionibus_milano",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.63:8092",
+                "Name": "docker21",
+                "backends": "docker21_test_billing",
+                "check": "check",
+                "num": "8092",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.66:8092",
+                "Name": "docker23",
+                "backends": "docker23_billing",
+                "check": "check",
+                "num": "8092",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:9990",
+                "Name": "docker12",
+                "backends": "docker20_devops",
+                "check": "check",
+                "num": "9990",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.64:9101",
+                "Name": "docker22",
+                "backends": "docker22_polis",
+                "check": "check",
+                "num": "9101",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.64:9103",
+                "Name": "docker22",
+                "backends": "docker22_polis_prod",
+                "check": "check",
+                "num": "9103",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.32:8082",
+                "Name": "docker01",
+                "backends": "docker01_signer_rmi",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_www_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:8085",
+                "Name": "docker02",
+                "backends": "docker02_suite_sivian_it",
+                "check": "check",
+                "num": "8085",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8082",
+                "Name": "podman02",
+                "backends": "podman02_suite_sivian_it",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8089",
+                "Name": "podman02",
+                "backends": "podman02_siv_sivian_it",
+                "check": "check",
+                "num": "8089",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8090",
+                "Name": "podman02",
+                "backends": "podman02_sel_sivian_it",
+                "check": "check",
+                "num": "8090",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_www_vetinweb_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_art316-mi",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_api-art316-mi",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_verbali_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_bg_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_bs_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_mb_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.71:8080",
+                "Name": "podman02",
+                "backends": "podman02_mb_sivian_it",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8084",
+                "Name": "podman02",
+                "backends": "podman02_mi_sivian_it",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8085",
+                "Name": "podman02",
+                "backends": "podman02_va_sivian_it",
+                "check": "check",
+                "num": "8085",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8083",
+                "Name": "podman02",
+                "backends": "podman02_bs_sivian_it",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8086",
+                "Name": "podman02",
+                "backends": "podman02_bg_sivian_it",
+                "check": "check",
+                "num": "8086",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8087",
+                "Name": "podman02",
+                "backends": "podman02_mo_sivian_it",
+                "check": "check",
+                "num": "8087",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8088",
+                "Name": "podman02",
+                "backends": "podman02_pv_sivian_it",
+                "check": "check",
+                "num": "8088",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.71:8081",
+                "Name": "podman02",
+                "backends": "podman02_api_sivian_it",
+                "check": "check",
+                "num": "8081",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_mi_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.33:80",
+                "Name": "docker02",
+                "backends": "docker02_va_sivian_it",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.32:80",
+                "Name": "docker01",
+                "backends": "docker01_ws_sosscuole",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.32:5000",
+                "Name": "docker01",
+                "backends": "docker01_cruscotto_sosscuole",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.32:5010",
+                "Name": "docker01",
+                "backends": "docker01_ws_pay_hub",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.38:8081",
+                "Name": "mweb02",
+                "backends": "mweb02_cremona",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.38:8092",
+                "Name": "mweb02",
+                "backends": "mweb02_cremona_compilazione",
+                "check": "check",
+                "num": "8092",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.38:8082",
+                "Name": "mweb02",
+                "backends": "mweb02_mantova",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.30:8093",
+                "Name": "mweb01",
+                "backends": "mweb01_mantova",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.30:8089",
+                "Name": "mweb01",
+                "backends": "mweb01_mantova_compilazione",
+                "check": "check",
+                "num": "8089",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8095",
+                "Name": "mweb01",
+                "backends": "mweb01_fad",
+                "check": "check",
+                "num": "8095",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8097",
+                "Name": "mweb01",
+                "backends": "mweb01_test_bergamoest",
+                "check": "check",
+                "num": "8097",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8096",
+                "Name": "mweb01",
+                "backends": "mweb01_test2_formazionesanitaria",
+                "check": "check",
+                "num": "8096",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.38:8085",
+                "Name": "mweb02",
+                "backends": "mweb02_fondazionebssolidale",
+                "check": "check",
+                "num": "8085",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8099",
+                "Name": "mweb04",
+                "backends": "mweb04_gestione_aule_sangerardo",
+                "check": "check",
+                "num": "8099",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.38:8084",
+                "Name": "mweb02",
+                "backends": "mweb02_sette_laghi",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.38:8083",
+                "Name": "mweb02",
+                "backends": "mweb02_izsler",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8092",
+                "Name": "mweb04",
+                "backends": "mweb04_sanmatteo",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8081",
+                "Name": "mweb03",
+                "backends": "mweb03_portici",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8087",
+                "Name": "mweb03",
+                "backends": "mweb03_portici_compilazione",
+                "check": "check",
+                "num": "8087",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8083",
+                "Name": "mweb03",
+                "backends": "mweb03_sicilia",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8090",
+                "Name": "mweb03",
+                "backends": "mweb03_polis",
+                "check": "check",
+                "num": "8090",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8091",
+                "Name": "mweb03",
+                "backends": "mweb03_polis_accademia",
+                "check": "check",
+                "num": "8091",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8086",
+                "Name": "mweb03",
+                "backends": "mweb03_polis_valutazione_web_accademia",
+                "check": "check",
+                "num": "8086",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8085",
+                "Name": "mweb03",
+                "backends": "mweb03_franciacorta",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8084",
+                "Name": "mweb03",
+                "backends": "mweb03_lecco",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8082",
+                "Name": "mweb03",
+                "backends": "mweb03_lecco_compilazione",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8091",
+                "Name": "mweb04",
+                "backends": "mweb04_garda",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8097",
+                "Name": "mweb04",
+                "backends": "mweb04_sangerardo",
+                "check": "check",
+                "num": "8097",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8094",
+                "Name": "mweb04",
+                "backends": "mweb04_compilazione_izslt",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8088",
+                "Name": "mweb03",
+                "backends": "mweb03_ovestmi",
+                "check": "check",
+                "num": "8088",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.42:8089",
+                "Name": "mweb03",
+                "backends": "mweb03_valleolona",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:8091",
+                "Name": "mweb03",
+                "backends": "mweb03_survey",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "backends": "mweb04_nordmilano"
+            },
+            {
+                "backends": "mweb04_besta"
+            },
+            {
+                "IP": "192.168.5.44:8083",
+                "Name": "mweb04",
+                "backends": "mweb04_ivfcorsi",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8084",
+                "Name": "mweb04",
+                "backends": "mweb04_bergamoest",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8085",
+                "Name": "mweb04",
+                "backends": "mweb04_valcamonica",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8086",
+                "Name": "mweb04",
+                "backends": "mweb04_santipaolocarlo",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8087",
+                "Name": "mweb04",
+                "backends": "mweb04_sciotwavecorsi",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8088",
+                "Name": "mweb04",
+                "backends": "mweb04_valtellina",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8080",
+                "Name": "mweb04",
+                "backends": "mweb04_valtellina_compilazione",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.44:8089",
+                "Name": "mweb04",
+                "backends": "mweb04_ivffad",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.44:8090",
+                "Name": "mweb04",
+                "backends": "mweb04_valpadana",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.55:9101",
+                "Name": "docker01",
+                "backends": "covid_hub",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:9101",
+                "Name": "mweb03",
+                "backends": "mweb03_mmg_test",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.42:9102",
+                "Name": "mweb03",
+                "backends": "mweb03_mmg_test_api",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "backends": "letsencrypt-standalone"
+            },
+            {
+                "IP": "192.168.5.30:80",
+                "Name": "mweb01",
+                "backends": "mweb01",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.30:8094",
+                "Name": "mweb01",
+                "backends": "mweb01_test_formazione",
+                "check": "check",
+                "num": "8094",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.73:8081",
+                "Name": "mwebtest",
+                "backends": "mwebtest_test_formazione",
+                "check": "check",
+                "num": "8081",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8090",
+                "Name": "mweb01",
+                "backends": "mweb01_old_apsstn",
+                "check": "check",
+                "num": "8090",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8094",
+                "Name": "mweb01",
+                "backends": "mweb01_apsstn",
+                "check": "check",
+                "num": "8094",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8092",
+                "Name": "mweb01",
+                "backends": "mweb01_dad_apsstn",
+                "check": "check",
+                "num": "8092",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8091",
+                "Name": "mweb01",
+                "backends": "mweb01_apsstn_formazioneindividuale",
+                "check": "check",
+                "num": "8091",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.48:8080",
+                "Name": "win01",
+                "backends": "docker09_phpAdmin",
+                "check": "check",
+                "num": "10m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8086",
+                "Name": "docker08",
+                "backends": "prenotazione_campioni",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.54:80",
+                "Name": "docker08",
+                "backends": "prenotazione_campioni_dev",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.81:8080",
+                "Name": "docker28",
+                "backends": "prenotazione_campioni_izslt_test",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.48:8081",
+                "Name": "docker09",
+                "backends": "estopper",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.57:8084",
+                "Name": "docker16",
+                "backends": "docker16_ibeaitalia",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.59:9090",
+                "Name": "docker18",
+                "backends": "docker18_api_sigla",
+                "check": "check",
+                "num": "9090",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:8085",
+                "Name": "docker16",
+                "backends": "docker16_citybadge",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.57:8086",
+                "Name": "docker16",
+                "backends": "docker16_portalesindaci",
+                "check": "check",
+                "num": "8086",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.48:8083",
+                "Name": "docker09",
+                "backends": "docker09_sosscuole",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:3535",
+                "Name": "docker12",
+                "backends": "docker12_infopass",
+                "check": "check",
+                "num": "3535",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:3535",
+                "Name": "docker24",
+                "backends": "docker24_infopass",
+                "check": "check",
+                "num": "3535",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:8081",
+                "Name": "docker24",
+                "backends": "docker24_pinfoa_test",
+                "check": "check",
+                "num": "8081",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:8083",
+                "Name": "docker12",
+                "backends": "docker12_sosscuole",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:9002",
+                "Name": "docker12",
+                "backends": "docker12_acquebresciane",
+                "check": "check",
+                "num": "9002",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:8186",
+                "Name": "docker12",
+                "backends": "docker12_asma",
+                "check": "check",
+                "num": "8186",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:3039",
+                "Name": "docker12",
+                "backends": "docker12_test_cup",
+                "check": "check",
+                "num": "3039",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:8880",
+                "Name": "docker12",
+                "backends": "docker12_cdg_test",
+                "check": "check",
+                "num": "8880",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:3039",
+                "Name": "docker24",
+                "backends": "docker24_cup",
+                "check": "check",
+                "num": "3039",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:9100",
+                "Name": "docker24",
+                "backends": "docker24_redcap",
+                "check": "check",
+                "num": "9100",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:3030",
+                "Name": "docker12",
+                "backends": "docker12_test_poste",
+                "check": "check",
+                "num": "3030",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:3030",
+                "Name": "docker24",
+                "backends": "docker24_prod_poste",
+                "check": "check",
+                "num": "3030",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.48:9000",
+                "Name": "docker09",
+                "backends": "signer_hub",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8081",
+                "Name": "docker12",
+                "backends": "docker12_test_ivf",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8081",
+                "Name": "docker12",
+                "backends": "docker12_test_ivf_sivian",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:9101",
+                "Name": "docker12",
+                "backends": "docker12_test_ivf_sentinelfarm_api",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:9104",
+                "Name": "docker12",
+                "backends": "docker12_test_sentinelfarm_it",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:80",
+                "Name": "docker12",
+                "backends": "docker12",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.48:8082",
+                "Name": "docker09",
+                "backends": "docker09_nso",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.48:9001",
+                "Name": "docker09",
+                "backends": "docker09_ws_scontrolli2",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.52:80",
+                "Name": "docker13",
+                "backends": "docker13_git",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.52:9280",
+                "Name": "docker13",
+                "backends": "docker13_wiki",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.52:9300",
+                "Name": "docker13",
+                "backends": "docker13_docs_invisiblefarm_it",
+                "check": "check",
+                "num": "9300",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:8181",
+                "Name": "docker12",
+                "backends": "docker12_api_iot_test_invisiblefarm_it",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8084",
+                "Name": "docker12",
+                "backends": "docker12_sivian_utility",
+                "check": "check",
+                "num": "8084",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.33:8084",
+                "Name": "docker02",
+                "backends": "docker02_sivian_utility_prod",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:9105",
+                "Name": "docker12",
+                "backends": "docker12_api_test_ankio",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:8100",
+                "Name": "docker12",
+                "backends": "docker12_test_memo",
+                "check": "check",
+                "num": "15m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.51:9106",
+                "Name": "docker12",
+                "backends": "docker12_test_sso",
+                "check": "check",
+                "num": "9106",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.55:81",
+                "Name": "docker14",
+                "backends": "docker14_smi_test",
+                "check": "check",
+                "num": "81",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.55:8080",
+                "Name": "docker14",
+                "backends": "docker14_covid_mnt_test",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.55:8081",
+                "Name": "docker14",
+                "backends": "docker14_covid_pv_test",
+                "check": "check",
+                "num": "8081",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.56:8089",
+                "Name": "docker15",
+                "backends": "docker15_pg23_demo",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.56:8091",
+                "Name": "docker15",
+                "backends": "docker15_pg23_demo_test",
+                "check": "check",
+                "num": "5m",
+                "port": "inter"
+            },
+            {
+                "IP": "192.168.5.56:8086",
+                "Name": "docker15",
+                "backends": "docker15_skipass_test",
+                "check": "check",
+                "num": "8086",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.51:9110",
+                "Name": "docker12",
+                "backends": "docker12_office_converter",
+                "check": "check",
+                "num": "9110",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.32:8085",
+                "Name": "docker01",
+                "backends": "docker01_scr",
+                "check": "check",
+                "num": "8085",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:8082",
+                "Name": "docker16",
+                "backends": "docker16_www_test_ivf",
+                "check": "check",
+                "num": "8082",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:8081",
+                "Name": "docker16",
+                "backends": "docker16_www_ivf",
+                "check": "check",
+                "num": "8081",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:8083",
+                "Name": "docker16",
+                "backends": "docker16_formazione_sciotwave",
+                "check": "check",
+                "num": "8083",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:9280",
+                "Name": "docker16",
+                "backends": "docker16_wiki",
+                "check": "check",
+                "num": "9280",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.57:9180",
+                "Name": "docker16",
+                "backends": "docker16_progetti",
+                "check": "check",
+                "num": "9180",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:80",
+                "Name": "win02",
+                "backends": "win02_formazione_admin",
+                "check": "check",
+                "num": "80",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:8080",
+                "Name": "win02",
+                "backends": "win02_formazione",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:80",
+                "Name": "win02",
+                "backends": "win02_gestform_izsum",
+                "check": "check",
+                "num": "80",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:8080",
+                "Name": "win02",
+                "backends": "win02_formazione_izsum",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:80",
+                "Name": "win02",
+                "backends": "win02_gestform_lombardia",
+                "check": "check",
+                "num": "80",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.60:8080",
+                "Name": "win02",
+                "backends": "win02_formazione_lombardia",
+                "check": "check",
+                "num": "8080",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8098",
+                "Name": "mweb01",
+                "backends": "mweb01_compilazione_izsum",
+                "check": "check",
+                "num": "8098",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.30:8099",
+                "Name": "mweb01",
+                "backends": "mweb01_compilazione_izssicilia",
+                "check": "check",
+                "num": "8099",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:9200",
+                "Name": "docker24",
+                "backends": "docker24_passbolt",
+                "check": "check",
+                "num": "9200",
+                "port": "port"
+            },
+            {
+                "IP": "192.168.5.68:443",
+                "Name": "docker24",
+                "backends": "docker24_samltest",
+                "check": "ssl",
+                "num": "none",
+                "port": "verify"
+            },
+            {
+                "IP": "192.168.5.68:444",
+                "Name": "docker24",
+                "backends": "docker24_samlprod",
+                "check": "ssl",
+                "num": "none",
+                "port": "verify"
+            }
+        ],
+        "FRONTEND_CFG": [
+            {
+                "backends": "docker01_rmi",
+                "hdr": "hdr(host)",
+                "host": "host_rmi",
+                "i": "-i",
+                "if": "if",
+                "site": "rmi.sivian.it"
+            },
+            {
+                "backends": "docker12_rmi",
+                "hdr": "hdr(host)",
+                "host": "host_rmi_test",
+                "i": "-i",
+                "if": "if",
+                "site": "rmi-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_botcommander",
+                "hdr": "hdr(host)",
+                "host": "host_botcommander",
+                "i": "-i",
+                "if": "if",
+                "site": "botcommander.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_infobot",
+                "hdr": "hdr(host)",
+                "host": "host_infobot",
+                "i": "-i",
+                "if": "if",
+                "site": "infobot.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_connectorfarm",
+                "hdr": "hdr(host)",
+                "host": "host_connectorfarm",
+                "i": "-i",
+                "if": "if",
+                "site": "connectorfarm.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_apibdn",
+                "hdr": "hdr(host)",
+                "host": "host_apibdn",
+                "i": "-i",
+                "if": "if",
+                "site": "apibdn.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_sentinelfarm_web",
+                "hdr": "hdr(host)",
+                "host": "host_sentinelfarm_web",
+                "i": "-i",
+                "if": "if",
+                "site": "sentinelfarm.invisiblefarm.it"
+            },
+            {
+                "backends": "docker17_sentinelfarm_api",
+                "hdr": "hdr(host)",
+                "host": "host_sentinelfarm_api",
+                "i": "-i",
+                "if": "if",
+                "site": "api-sentinelfarm.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_sigla4_izsler",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_sigla4_izsler",
+                "i": "-i",
+                "if": "if",
+                "site": "sigla4-izsler.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_sigla5_izsler",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_sigla5_izsler",
+                "i": "-i",
+                "if": "if",
+                "site": "sigla-izsler.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_sigla_izsum",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_sigla_izsum",
+                "i": "-i",
+                "if": "if",
+                "site": "sigla-izsum.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_sigla_lab",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_sigla_lab",
+                "i": "-i",
+                "if": "if",
+                "site": "sigla-lab.invisiblefarm.it"
+            },
+            {
+                "backends": "docker19_api",
+                "hdr": "hdr(host)",
+                "host": "host_docker19_api",
+                "i": "-i",
+                "if": "if",
+                "site": "api.invisiblefarm.it"
+            },
+            {
+                "backends": "docker19_acquebresciane",
+                "hdr": "hdr(host)",
+                "host": "host_docker19_acquebresciane",
+                "i": "-i",
+                "if": "if",
+                "site": "www.acquebresciane.it"
+            },
+            {
+                "backends": "docker19_acquebresciane",
+                "hdr": "hdr(host)",
+                "host": "host_docker19_acquebresciane_redirect",
+                "i": "-i",
+                "if": "if",
+                "site": "acquebresciane.it"
+            },
+            {
+                "backends": "docker19_cdg",
+                "hdr": "hdr(host)",
+                "host": "host_docker19_cdg",
+                "i": "-i",
+                "if": "if",
+                "site": "budget.irccs-sangerardo.it"
+            },
+            {
+                "backends": "docker21_test_santionibus_antonio",
+                "hdr": "hdr(host)",
+                "host": "host_docker21_test_santionibus_antonio",
+                "i": "-i",
+                "if": "if",
+                "site": "santionibus-test.sanita.marche.it"
+            },
+            {
+                "backends": "docker23_santionibus",
+                "hdr": "hdr(host)",
+                "host": "host_docker23_santionibus",
+                "i": "-i",
+                "if": "if",
+                "site": "santionibus.sanita.marche.it"
+            },
+            {
+                "backends": "docker24_passbolt",
+                "hdr": "hdr(host)",
+                "host": "host_docker24_passbolt",
+                "i": "-i",
+                "if": "if",
+                "site": "pass.invisiblefarm.it"
+            },
+            {
+                "backends": "docker24_pinfoa_test",
+                "hdr": "hdr(host)",
+                "host": "host_docker24_pinfoa_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-pinfoa.invisiblefarm.it"
+            },
+            {
+                "backends": "docker24_samltest",
+                "hdr": "hdr(host)",
+                "host": "host_docker24_samltest",
+                "i": "-i",
+                "if": "if",
+                "site": "mmg-idpc-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker24_samlprod",
+                "hdr": "hdr(host)",
+                "host": "host_docker24_samlprod",
+                "i": "-i",
+                "if": "if",
+                "site": "mmg-idpc.invisiblefarm.it"
+            },
+            {
+                "backends": "docker20_prod_santionibus_milano",
+                "hdr": "hdr(host)",
+                "host": "host_docker20_prod_santionibus_milano",
+                "i": "-i",
+                "if": "if",
+                "site": "santionibus-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker20_prod_api_santionibus_milano",
+                "hdr": "hdr(host)",
+                "host": "host_docker20_prod_api_santionibus_milano",
+                "i": "-i",
+                "if": "if",
+                "site": "api-santionibus-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker21_test_santionibus_milano",
+                "hdr": "hdr(host)",
+                "host": "host_docker21_test_santionibus_milano",
+                "i": "-i",
+                "if": "if",
+                "site": "test-santionibus-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker21_test_api_santionibus_milano",
+                "hdr": "hdr(host)",
+                "host": "host_docker21_test_api_santionibus_milano",
+                "i": "-i",
+                "if": "if",
+                "site": "test-api-santionibus-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker21_test_billing",
+                "hdr": "hdr(host)",
+                "host": "host_docker21_test_billing",
+                "i": "-i",
+                "if": "if",
+                "site": "billing-test.sanita.marche.it"
+            },
+            {
+                "backends": "docker23_billing",
+                "hdr": "hdr(host)",
+                "host": "host_docker23_billing",
+                "i": "-i",
+                "if": "if",
+                "site": "billing.sanita.marche.it"
+            },
+            {
+                "backends": "docker20_devops",
+                "hdr": "hdr(host)",
+                "host": "host_docker20_devops",
+                "i": "-i",
+                "if": "if",
+                "site": "devops.invisiblefarm.it"
+            },
+            {
+                "backends": "docker22_polis",
+                "hdr": "hdr(host)",
+                "host": "host_docker22_polis",
+                "i": "-i",
+                "if": "if",
+                "site": "mmg-polis.invisiblefarm.it"
+            },
+            {
+                "backends": "docker22_polis_prod",
+                "hdr": "hdr(host)",
+                "host": "host_docker22_polis_prod",
+                "i": "-i",
+                "if": "if",
+                "site": "gestionecorsimmg.servizirl.it"
+            },
+            {
+                "backends": "docker22_polis",
+                "hdr": "hdr(host)",
+                "host": "host_docker22_polis_test",
+                "i": "-i",
+                "if": "if",
+                "site": "mmg-polis-test.invisiblefarm.it"
+            },
+            {
+                "backends": "snowapp_azure_test",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-bo.skipasslombardia.it"
+            },
+            {
+                "backends": "snowapp_azure_prod",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_prod",
+                "i": "-i",
+                "if": "if",
+                "site": "bo.skipasslombardia.it"
+            },
+            {
+                "backends": "snowapp_azure_web_prod",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_azure_web_prod",
+                "i": "-i",
+                "if": "if",
+                "site": "ppu.skipasslombardia.it"
+            },
+            {
+                "backends": "snowapp_azure_web_test",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_azure_web_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-ppu.skipasslombardia.it"
+            },
+            {
+                "backends": "snowapp_azure_wa_prod",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_azure_wa_prod",
+                "i": "-i",
+                "if": "if",
+                "site": "ppu-api.skipasslombardia.it"
+            },
+            {
+                "backends": "snowapp_azure_wa_test",
+                "hdr": "hdr(host)",
+                "host": "host_snowapp_azure_wa_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-ppu-api.skipasslombardia.it"
+            },
+            {
+                "backends": "docker01_signer_rmi",
+                "hdr": "hdr(host)",
+                "host": "host_signer_rmi",
+                "i": "-i",
+                "if": "if",
+                "site": "signer-rmi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_www_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_www_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "www.sivian.it"
+            },
+            {
+                "backends": "docker02_www_vetinweb_it",
+                "hdr": "hdr(host)",
+                "host": "host_www_vetinweb_it",
+                "i": "-i",
+                "if": "if",
+                "site": "www.vetinweb.it"
+            },
+            {
+                "backends": "docker02_art316-mi",
+                "hdr": "hdr(host)",
+                "host": "host_art316-mi",
+                "i": "-i",
+                "if": "if",
+                "site": "art316-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_art316-mi",
+                "hdr": "hdr(host)",
+                "host": "host_art316-mi-test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-art316-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_api-art316-mi",
+                "hdr": "hdr(host)",
+                "host": "host_api-art316-mi",
+                "i": "-i",
+                "if": "if",
+                "site": "api-art316-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_api-art316-mi",
+                "hdr": "hdr(host)",
+                "host": "host_test-api-art316-mi",
+                "i": "-i",
+                "if": "if",
+                "site": "test-api-art316-mi.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_verbali_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_verbali_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "verbali.sivian.it"
+            },
+            {
+                "backends": "podman02_bg_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_bg_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "bg.sivian.it"
+            },
+            {
+                "backends": "podman02_bs_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_bs_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "bs.sivian.it"
+            },
+            {
+                "backends": "podman02_mb_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_mb_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "mb.sivian.it"
+            },
+            {
+                "backends": "podman02_api_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_api_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "api.sivian.it"
+            },
+            {
+                "backends": "podman02_mi_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_mi_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "mi.sivian.it"
+            },
+            {
+                "backends": "podman02_va_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_va_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "va.sivian.it"
+            },
+            {
+                "backends": "podman02_mo_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_mo_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "mo.sivian.it"
+            },
+            {
+                "backends": "podman02_pv_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_pv_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "pv.sivian.it"
+            },
+            {
+                "backends": "podman02_suite_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_suite2_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "login.sivian.it"
+            },
+            {
+                "backends": "podman02_siv_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_siv_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "siv.sivian.it"
+            },
+            {
+                "backends": "podman02_sel_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_sel_sivian_it",
+                "i": "-i",
+                "if": "if",
+                "site": "sel.sivian.it"
+            },
+            {
+                "backends": "docker02_va_sivian_it",
+                "hdr": "hdr(host)",
+                "host": "host_cerves_it",
+                "i": "-i",
+                "if": "if",
+                "site": "cerves.izsler.it"
+            },
+            {
+                "backends": "docker01_ws_sosscuole",
+                "hdr": "hdr(host)",
+                "host": "host_ws_sosscuole",
+                "i": "-i",
+                "if": "if",
+                "site": "ws-sosscuole.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb03_mmg_test",
+                "hdr": "hdr(host)",
+                "host": "host_mmg_test",
+                "i": "-i",
+                "if": "if",
+                "site": "mmg-test.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb03_mmg_test_api",
+                "hdr": "hdr(host)",
+                "host": "host_mmg_test_api",
+                "i": "-i",
+                "if": "if",
+                "site": "ws-mmg-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker01_cruscotto_sosscuole",
+                "hdr": "hdr(host)",
+                "host": "host_cruscotto_sosscuole",
+                "i": "-i",
+                "if": "if",
+                "site": "cruscotto.sosscuole.it"
+            },
+            {
+                "backends": "docker01_ws_pay_hub",
+                "hdr": "hdr(host)",
+                "host": "host_ws_pay_hub",
+                "i": "-i",
+                "if": "if",
+                "site": "ws-payhub.invisiblefarm.it"
+            },
+            {
+                "backends": "docker09_phpAdmin",
+                "hdr": "hdr(host)",
+                "host": "host_portalescuole_db",
+                "i": "-i",
+                "if": "if",
+                "site": "portalescuoledb.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb02_cremona",
+                "hdr": "hdr(host)",
+                "host": "host_f_cremona",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-cremona.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb02_fondazionebssolidale",
+                "hdr": "hdr(host)",
+                "host": "host_formazione_fondazionebssolidale",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.fondazionebssolidale.it"
+            },
+            {
+                "backends": "mweb01_apsstn",
+                "hdr": "hdr(host)",
+                "host": "host_formazione_apsstn",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.apss.tn.it"
+            },
+            {
+                "backends": "mweb01_old_apsstn",
+                "hdr": "hdr(host)",
+                "host": "host_formazione_old_apsstn",
+                "i": "-i",
+                "if": "if",
+                "site": "oldfad.apss.tn.it"
+            },
+            {
+                "backends": "mweb01_dad_apsstn",
+                "hdr": "hdr(host)",
+                "host": "host_dad_apsstn",
+                "i": "-i",
+                "if": "if",
+                "site": "dad-polodidattico.apss.tn.it"
+            },
+            {
+                "backends": "mweb01_apsstn_formazioneindividuale",
+                "hdr": "hdr(host)",
+                "host": "host_formazioneindividuale",
+                "i": "-i",
+                "if": "if",
+                "site": "formazioneindividuale-aggiornamentoscientifico.apss.tn.it"
+            },
+            {
+                "backends": "mwebtest_test_formazione",
+                "hdr": "hdr(host)",
+                "host": "host_test_formazione_sanitaria",
+                "i": "-i",
+                "if": "if",
+                "site": "test.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb01_fad",
+                "hdr": "hdr(host)",
+                "host": "host_mweb01_fad",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.izsum.it"
+            },
+            {
+                "backends": "mweb04_gestione_aule_sangerardo",
+                "hdr": "hdr(host)",
+                "host": "host_mweb04_gestione_aule_sangerardo",
+                "i": "-i",
+                "if": "if",
+                "site": "gestioneaule.irccs-sangerardo.it"
+            },
+            {
+                "backends": "mweb02_cremona_compilazione",
+                "hdr": "hdr(host)",
+                "host": "host_c_cremona",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione-cremona.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_compilazione_izslt",
+                "hdr": "hdr(host)",
+                "host": "host_compilazione_izslt",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione.izslt.it"
+            },
+            {
+                "backends": "mweb02_sette_laghi",
+                "hdr": "hdr(host)",
+                "host": "host_f_sette_laghi",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-settelaghi.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb02_izsler",
+                "hdr": "hdr(host)",
+                "host": "host_f_izsler",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.izsler.it"
+            },
+            {
+                "backends": "mweb04_sanmatteo",
+                "hdr": "hdr(host)",
+                "host": "host_f_sanmatteo",
+                "i": "-i",
+                "if": "if",
+                "site": "sanmatteo.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_sangerardo",
+                "hdr": "hdr(host)",
+                "host": "host_f_sangerardo",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.irccs-sangerardo.it"
+            },
+            {
+                "backends": "mweb01_mantova",
+                "hdr": "hdr(host)",
+                "host": "host_f_mantova",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-mantova.it"
+            },
+            {
+                "backends": "mweb01_mantova_compilazione",
+                "hdr": "hdr(host)",
+                "host": "host_compilazione_mantova",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione.asst-mantova.it"
+            },
+            {
+                "backends": "mweb01_test_bergamoest",
+                "hdr": "hdr(host)",
+                "host": "host_f_test_bergamoest",
+                "i": "-i",
+                "if": "if",
+                "site": "test-bergamoest.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb01_test2_formazionesanitaria",
+                "hdr": "hdr(host)",
+                "host": "host_test2_formazionesanitaria",
+                "i": "-i",
+                "if": "if",
+                "site": "test2.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb03_portici",
+                "hdr": "hdr(host)",
+                "host": "host_f_portici",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.izsmportici.it"
+            },
+            {
+                "backends": "mweb03_portici_compilazione",
+                "hdr": "hdr(host)",
+                "host": "host_c_portici",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione.izsmportici.it"
+            },
+            {
+                "backends": "mweb03_lecco",
+                "hdr": "hdr(host)",
+                "host": "host_f_lecco",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-lecco.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb03_lecco_compilazione",
+                "hdr": "hdr(host)",
+                "host": "host_c_lecco",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione-lecco.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb03_sicilia",
+                "hdr": "hdr(host)",
+                "host": "host_f_sicilia",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.izssicilia.it"
+            },
+            {
+                "backends": "mweb03_polis",
+                "hdr": "hdr(host)",
+                "host": "host_f_polis",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.polis.lombardia.it"
+            },
+            {
+                "backends": "mweb03_polis_accademia",
+                "hdr": "hdr(host)",
+                "host": "host_f_accademia_polis",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.accademia.polis.lombardia.it"
+            },
+            {
+                "backends": "mweb03_polis_valutazione_web_accademia",
+                "hdr": "hdr(host)",
+                "host": "host_f_polis_valutazioneweb",
+                "i": "-i",
+                "if": "if",
+                "site": "valutazioneweb.accademia.polis.lombardia.it"
+            },
+            {
+                "backends": "mweb03_franciacorta",
+                "hdr": "hdr(host)",
+                "host": "host_f_franciacorta",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-franciacorta.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_garda",
+                "hdr": "hdr(host)",
+                "host": "host_f_garda",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-garda.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb03_ovestmi",
+                "hdr": "hdr(host)",
+                "host": "host_f_ovestmi",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-ovestmi.it"
+            },
+            {
+                "backends": "mweb03_valleolona",
+                "hdr": "hdr(host)",
+                "host": "host_f_valleolona",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-valleolona.it"
+            },
+            {
+                "backends": "mweb04_nordmilano",
+                "hdr": "hdr(host)",
+                "host": "host_f_nordmilano",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-nordmilano.it"
+            },
+            {
+                "backends": "mweb04_besta",
+                "hdr": "hdr(host)",
+                "host": "host_f_besta",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.istituto-besta.it"
+            },
+            {
+                "backends": "mweb04_ivfcorsi",
+                "hdr": "hdr(host)",
+                "host": "host_f_corsi",
+                "i": "-i",
+                "if": "if",
+                "site": "corsi.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_bergamoest",
+                "hdr": "hdr(host)",
+                "host": "host_f_bergamoest",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-bergamoest.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_santipaolocarlo",
+                "hdr": "hdr(host)",
+                "host": "host_f_santipaolocarlo",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-santipaolocarlo.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_sciotwavecorsi",
+                "hdr": "hdr(host)",
+                "host": "host_f_sciotwavecorsi",
+                "i": "-i",
+                "if": "if",
+                "site": "corsi.sciotwave.it"
+            },
+            {
+                "backends": "mweb04_valcamonica",
+                "hdr": "hdr(host)",
+                "host": "host_f_valcamonica",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-valcamonica.it"
+            },
+            {
+                "backends": "mweb04_valtellina",
+                "hdr": "hdr(host)",
+                "host": "host_f_valtellina",
+                "i": "-i",
+                "if": "if",
+                "site": "asst-val.formazionesanitaria.it"
+            },
+            {
+                "backends": "mweb04_ivffad",
+                "hdr": "hdr(host)",
+                "host": "host_f_ivffad",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb04_rhodense",
+                "hdr": "hdr(host)",
+                "host": "host_f_rhodense",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.asst-rhodense.it"
+            },
+            {
+                "backends": "mweb04_valpadana",
+                "hdr": "hdr(host)",
+                "host": "host_f_valpadana",
+                "i": "-i",
+                "if": "if",
+                "site": "fad.ats-valpadana.it"
+            },
+            {
+                "backends": "covid_hub",
+                "hdr": "hdr(host)",
+                "host": "host_covid_hub",
+                "i": "-i",
+                "if": "if",
+                "site": "covid19-hub2.invisiblefarm.it"
+            },
+            {
+                "backends": "prenotazione_campioni",
+                "hdr": "hdr(host)",
+                "host": "host_prenotazione_campioni",
+                "i": "-i",
+                "if": "if",
+                "site": "prenotazione-campioni.invisiblefarm.it"
+            },
+            {
+                "backends": "prenotazione_campioni_izslt_test",
+                "hdr": "hdr(host)",
+                "host": "host_prenotazione_campioni_izslt_test",
+                "i": "-i",
+                "if": "if",
+                "site": "prenotazione-campioni-izslt.invisiblefarm.it"
+            },
+            {
+                "backends": "prenotazione_campioni_dev",
+                "hdr": "hdr(host)",
+                "host": "host_prenotazione_campioni_dev",
+                "i": "-i",
+                "if": "if",
+                "site": "prenotazione-campioni-dev.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_api_sigla",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_api_sigla",
+                "i": "-i",
+                "if": "if",
+                "site": "api-sigla.invisiblefarm.it"
+            },
+            {
+                "backends": "docker18_signerhub_test",
+                "hdr": "hdr(host)",
+                "host": "host_docker18_signerhub_test",
+                "i": "-i",
+                "if": "if",
+                "site": "invisiblesign-test.invisiblefarm.it"
+            },
+            {
+                "backends": "estopper",
+                "hdr": "hdr(host)",
+                "host": "host_estopper",
+                "i": "-i",
+                "if": "if",
+                "site": "www.estopper.it"
+            },
+            {
+                "backends": "docker16_ibeaitalia",
+                "hdr": "hdr(host)",
+                "host": "host_ibeaitalia",
+                "i": "-i",
+                "if": "if",
+                "site": "www.ibeaitalia.it"
+            },
+            {
+                "backends": "docker16_citybadge",
+                "hdr": "hdr(host)",
+                "host": "host_citybadge",
+                "i": "-i",
+                "if": "if",
+                "site": "citybadge.it"
+            },
+            {
+                "backends": "docker16_citybadge",
+                "hdr": "hdr(host)",
+                "host": "host_citybadge_www",
+                "i": "-i",
+                "if": "if",
+                "site": "www.citybadge.it"
+            },
+            {
+                "backends": "docker16_portalesindaci",
+                "hdr": "hdr(host)",
+                "host": "host_portalesindaci",
+                "i": "-i",
+                "if": "if",
+                "site": "portalesindaci.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb04_valtellina_compilazione",
+                "hdr": "hdr(host)",
+                "host": "host_c_valtellina",
+                "i": "-i",
+                "if": "if",
+                "site": "compila-val.formazionesanitaria.it"
+            },
+            {
+                "backends": "signer_hub",
+                "hdr": "hdr(host)",
+                "host": "host_signer_hub",
+                "i": "-i",
+                "if": "if",
+                "site": "signerhub.invisiblefarm.it"
+            },
+            {
+                "hdr": "hdr(host)",
+                "host": "host_test_ivf",
+                "i": "-i",
+                "site": "test.invisiblefarm.it"
+            },
+            {
+                "hdr": "path_beg",
+                "host": "host_test_ivf_sivian",
+                "i": "-i",
+                "site": "/sivian"
+            },
+            {
+                "backends": "docker12",
+                "hdr": "path_beg",
+                "host": "host_test_ivf_sentinelfarm_api",
+                "i": "-i",
+                "if": "if",
+                "site": "/serverfarm/api"
+            },
+            {
+                "backends": "docker09_nso",
+                "hdr": "hdr(host)",
+                "host": "host_nso",
+                "i": "-i",
+                "if": "if",
+                "site": "nso.invisiblefarm.it"
+            },
+            {
+                "backends": "docker09_sosscuole",
+                "hdr": "hdr(host)",
+                "host": "host_www_sosscuole_it",
+                "i": "-i",
+                "if": "if",
+                "site": "www.sosscuole.it"
+            },
+            {
+                "backends": "docker12_sosscuole",
+                "hdr": "hdr(host)",
+                "host": "host_test_sosscuole_it",
+                "i": "-i",
+                "if": "if",
+                "site": "test.sosscuole.it"
+            },
+            {
+                "backends": "docker12_acquebresciane",
+                "hdr": "hdr(host)",
+                "host": "host_test_acquebresciane",
+                "i": "-i",
+                "if": "if",
+                "site": "acquebresciane.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_infopass",
+                "hdr": "hdr(host)",
+                "host": "host_test_infopass",
+                "i": "-i",
+                "if": "if",
+                "site": "test-infopass.skipasslombardia.it"
+            },
+            {
+                "backends": "docker24_infopass",
+                "hdr": "hdr(host)",
+                "host": "host_prod_infopass",
+                "i": "-i",
+                "if": "if",
+                "site": "infopass.skipasslombardia.it"
+            },
+            {
+                "backends": "docker12_asma",
+                "hdr": "hdr(host)",
+                "host": "host_test_asma",
+                "i": "-i",
+                "if": "if",
+                "site": "test-asma.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_asma",
+                "hdr": "hdr(host)",
+                "host": "host_test_asma_alternativo",
+                "i": "-i",
+                "if": "if",
+                "site": "testasma.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_test_cup",
+                "hdr": "hdr(host)",
+                "host": "host_test_cup",
+                "i": "-i",
+                "if": "if",
+                "site": "cup-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_cdg_test",
+                "hdr": "hdr(host)",
+                "host": "host_docker12_cdg_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-cdg.invisiblefarm.it"
+            },
+            {
+                "backends": "docker24_cup",
+                "hdr": "hdr(host)",
+                "host": "host_prod_cup",
+                "i": "-i",
+                "if": "if",
+                "site": "cupvet.ats-insubria.it"
+            },
+            {
+                "backends": "docker24_redcap",
+                "hdr": "hdr(host)",
+                "host": "host_prod_redcap",
+                "i": "-i",
+                "if": "if",
+                "site": "redcap.irccs-sangerardo.it"
+            },
+            {
+                "backends": "docker12_test_poste",
+                "hdr": "hdr(host)",
+                "host": "host_test_poste",
+                "i": "-i",
+                "if": "if",
+                "site": "posthub-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker24_prod_poste",
+                "hdr": "hdr(host)",
+                "host": "host_prod_poste",
+                "i": "-i",
+                "if": "if",
+                "site": "posthub.invisiblefarm.it"
+            },
+            {
+                "backends": "docker13_git",
+                "hdr": "hdr(host)",
+                "host": "host_git",
+                "i": "-i",
+                "if": "if",
+                "site": "git.invisiblefarm.it"
+            },
+            {
+                "backends": "docker13_wiki",
+                "hdr": "hdr(host)",
+                "host": "host_wiki",
+                "i": "-i",
+                "if": "if",
+                "site": "wiki.invisiblefarm.it"
+            },
+            {
+                "backends": "docker09_ws_scontrolli2",
+                "hdr": "hdr(host)",
+                "host": "host_ws_scontrolli2",
+                "i": "-i",
+                "if": "if",
+                "site": "swcontrolli-api.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_test_sentinelfarm_it",
+                "hdr": "hdr(host)",
+                "host": "host_test_sentinelfarm_it",
+                "i": "-i",
+                "if": "if",
+                "site": "sentinelfarm-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker13_docs_invisiblefarm_it",
+                "hdr": "hdr(host)",
+                "host": "host_docs_invisiblefarm_it",
+                "i": "-i",
+                "if": "if",
+                "site": "docs.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_api_iot_test_invisiblefarm_it",
+                "hdr": "hdr(host)",
+                "host": "host_api_iot_test_invisiblefarm_it",
+                "i": "-i",
+                "if": "if",
+                "site": "api-iot-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker14_smi_test",
+                "hdr": "hdr(host)",
+                "host": "host_docker14_smi_test",
+                "i": "-i",
+                "if": "if",
+                "site": "smi-test.invisiblefarm.it"
+            },
+            {
+                "hdr": "hdr(host)",
+                "host": "host_covid_mnt_test",
+                "i": "-i",
+                "site": "test-covid-montagna.invisiblefarm.it"
+            },
+            {
+                "hdr": "path_beg",
+                "host": "host_covid_mnt_test_rds",
+                "i": "-i",
+                "site": "/portalescuole"
+            },
+            {
+                "hdr": "hdr(host)",
+                "host": "host_covid_pv_test",
+                "i": "-i",
+                "site": "test-covid-pavia.invisiblefarm.it"
+            },
+            {
+                "hdr": "path_beg",
+                "host": "host_covid_pv_test_rds",
+                "i": "-i",
+                "site": "/portalescuole"
+            },
+            {
+                "backends": "docker12_api_test_ankio",
+                "hdr": "hdr(host)",
+                "host": "host_api_test_ankio",
+                "i": "-i",
+                "if": "if",
+                "site": "test-ankio.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_sivian_utility",
+                "hdr": "hdr(host)",
+                "host": "host_sivian_utility_test",
+                "i": "-i",
+                "if": "if",
+                "site": "utility-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker02_sivian_utility_prod",
+                "hdr": "hdr(host)",
+                "host": "host_sivian_utility_prod",
+                "i": "-i",
+                "if": "if",
+                "site": "utility.sivian.it"
+            },
+            {
+                "backends": "docker12_test_memo",
+                "hdr": "hdr(host)",
+                "host": "host_test_memo",
+                "i": "-i",
+                "if": "if",
+                "site": "memo-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_test_sso",
+                "hdr": "hdr(host)",
+                "host": "host_test_sso",
+                "i": "-i",
+                "if": "if",
+                "site": "sso-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker15_pg23_demo",
+                "hdr": "hdr(host)",
+                "host": "host_pg32_demo",
+                "i": "-i",
+                "if": "if",
+                "site": "demoappdipendentipg23.invisiblefarm.it"
+            },
+            {
+                "backends": "docker15_pg23_demo_test",
+                "hdr": "hdr(host)",
+                "host": "host_pg23_demo_test",
+                "i": "-i",
+                "if": "if",
+                "site": "testappdipendentipg23.invisiblefarm.it"
+            },
+            {
+                "backends": "docker12_office_converter",
+                "hdr": "hdr(host)",
+                "host": "host_office_converter",
+                "i": "-i",
+                "if": "if",
+                "site": "officeconverter.invisiblefarm.it"
+            },
+            {
+                "backends": "docker01_scr",
+                "hdr": "hdr(host)",
+                "host": "host_www_scr",
+                "i": "-i",
+                "if": "if",
+                "site": "www.smartcityreadinesstool.it"
+            },
+            {
+                "backends": "docker01_scr",
+                "hdr": "hdr(host)",
+                "host": "host_scr",
+                "i": "-i",
+                "if": "if",
+                "site": "smartcityreadinesstool.it"
+            },
+            {
+                "backends": "docker16_www_test_ivf",
+                "hdr": "hdr(host)",
+                "host": "host_www_test_ivf",
+                "i": "-i",
+                "if": "if",
+                "site": "www-test.invisiblefarm.it"
+            },
+            {
+                "backends": "docker16_www_ivf",
+                "hdr": "hdr(host)",
+                "host": "host_www_ivf",
+                "i": "-i",
+                "if": "if",
+                "site": "www.invisiblefarm.it"
+            },
+            {
+                "backends": "docker16_formazione_sciotwave",
+                "hdr": "hdr(host)",
+                "host": "host_formazione_sciotwave",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.sciotwave.it"
+            },
+            {
+                "backends": "docker16_progetti",
+                "hdr": "hdr(host)",
+                "host": "host_progetti_ivf",
+                "i": "-i",
+                "if": "if",
+                "site": "progetti.invisiblefarm.it"
+            },
+            {
+                "backends": "docker16_wiki",
+                "hdr": "hdr(host)",
+                "host": "host_docker16_wiki",
+                "i": "-i",
+                "if": "if",
+                "site": "sigla-wiki.invisiblefarm.it"
+            },
+            {
+                "backends": "win02_formazione_admin",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_admin",
+                "i": "-i",
+                "if": "if",
+                "site": "formadmin.izslt.it"
+            },
+            {
+                "backends": "win02_formazione_admin",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_admin_sicilia",
+                "i": "-i",
+                "if": "if",
+                "site": "formadmin.izssicilia.it"
+            },
+            {
+                "backends": "win02_formazione",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_sicilia",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.izssicilia.it"
+            },
+            {
+                "backends": "win02_formazione_admin",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_admin_portici",
+                "i": "-i",
+                "if": "if",
+                "site": "formadmin.izsmportici.it"
+            },
+            {
+                "backends": "win02_formazione",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_portici",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.izsmportici.it"
+            },
+            {
+                "backends": "win02_formazione",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.izslt.it"
+            },
+            {
+                "backends": "win02_formazione",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_sanitaria",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.accademia.polis.lombardia.it"
+            },
+            {
+                "backends": "win02_formazione_admin",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_sanitaria_gestform",
+                "i": "-i",
+                "if": "if",
+                "site": "gestionale.formazione.accademia.polis.lombardia.it"
+            },
+            {
+                "backends": "win02_gestform_izsum",
+                "hdr": "hdr(host)",
+                "host": "host_win02_gestform_izsum",
+                "i": "-i",
+                "if": "if",
+                "site": "gestform.izsum.it"
+            },
+            {
+                "backends": "win02_formazione_izsum",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_izsum",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.izsum.it"
+            },
+            {
+                "backends": "win02_gestform_lombardia",
+                "hdr": "hdr(host)",
+                "host": "host_win02_gestform_lombardia",
+                "i": "-i",
+                "if": "if",
+                "site": "gestioneformazione.polis.lombardia.it"
+            },
+            {
+                "backends": "win02_formazione_lombardia",
+                "hdr": "hdr(host)",
+                "host": "host_win02_formazione_lombardia",
+                "i": "-i",
+                "if": "if",
+                "site": "formazione.polis.lombardia.it"
+            },
+            {
+                "backends": "mweb01_compilazione_izsum",
+                "hdr": "hdr(host)",
+                "host": "host_mweb01_compilazione_izsum",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione.izsum.it"
+            },
+            {
+                "backends": "mweb01_compilazione_izssicilia",
+                "hdr": "hdr(host)",
+                "host": "host_mweb01_compilazione_izssicilia",
+                "i": "-i",
+                "if": "if",
+                "site": "compilazione.izssicilia.it"
+            },
+            {
+                "backends": "docker15_skipass_test",
+                "hdr": "hdr(host)",
+                "host": "host_skipass_test",
+                "i": "-i",
+                "if": "if",
+                "site": "test-skipass.invisiblefarm.it"
+            },
+            {
+                "backends": "docker26",
+                "hdr": "hdr(host)",
+                "host": "host_zentral",
+                "i": "-i",
+                "if": "if",
+                "site": "zentral.invisiblefarm.it"
+            },
+            {
+                "backends": "mweb03_survey",
+                "hdr": "hdr(host)",
+                "host": "host_survey",
+                "i": "-i",
+                "if": "if",
+                "site": "survey.invisiblefarm.it"
+            }
+        ]
+    }
+]
